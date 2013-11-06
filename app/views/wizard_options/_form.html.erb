@@ -1,0 +1,43 @@
+<%= form_for(@wizard_option) do |f| %>
+  <% if @wizard_option.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@wizard_option.errors.count, "error") %> prohibited this wizard_option from being saved:</h2>
+
+      <ul>
+      <% @wizard_option.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+     <%= f.label :wizard_id %> <br />
+     <%= f.text_field :wizard_id %>
+  </div>
+  <div class="field">
+     <%= f.label :title %> <br />
+     <%= f.text_field :title %>
+  </div>
+  <div class="field">
+     <%= f.label :questionSet_id %> <br/>
+     <%= f.text_field :questionSet_id %>
+  </div>
+  <div class="field">
+     <%= f.label :next_wizard_id %> <br />
+     <%= f.text_field :next_wizard_id %>
+  </div>
+  <div class="field">
+     <%= f.label :image_path %> <br/>
+     <%= f.text_field :image_path %>
+  </div>
+  <div class="field">
+     <%= f.label :fieldname %> <br/>
+     <%= f.text_field :fieldname %>
+  </div>
+
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

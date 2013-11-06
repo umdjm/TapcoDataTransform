@@ -1,0 +1,80 @@
+wizard_id,title,image_path,next_wizard_id,questionSet_id
+2,Shutters ,/sites/default/files/cust-raised-panel-1.jpg,3,
+2,Mounting Blocks ,/sites/default/files/std_mount.jpg,4,
+2,Vents ,/sites/default/files/gable_vent.jpg,5,
+2,Trim ,/sites/default/files/window_header_0.jpg,6,
+2,Ridge Vent ,/sites/default/files/ventilation.jpg,7,
+3,Raised Panel ,/sites/default/files/panel_raised_0.jpg,,2
+3,Louver ,/sites/default/files/louver_std_0.jpg,,3
+3,Board-N-Batten ,/sites/default/files/std-brd-batten.jpg,,4
+3,Combination ,/sites/default/files/louv-panel-combo.jpg,,5
+4,Standard ,/sites/default/files/std_mount_0.jpg,,6
+4,Insulated ,/sites/default/files/block_vent_ins.jpg,,6
+4,SturdiMount ,/sites/default/files/sturdi_mount.jpg,,6
+4,Water Management,/sites/default/files/water_mgmt.jpg,,6
+4,UL ,/sites/default/files/ul_electrical_.jpg,,6
+5,Utility ,/sites/default/files/insul_utility_0.jpg,,7
+5,Standard Gable ,/sites/default/files/gable_vent_std.jpg,,7
+5,Specialty Gable ,/sites/default/files/gabel_vent_spc.jpg,,7
+5,Custom ,/sites/default/files/style_a_vent.jpg,,7
+6,Window Headers/Pilasters ,/sites/default/files/window_header.jpg,,8
+6,Sunbursts ,/sites/default/files/sunburst.jpg,,9
+6,Dentil Trim ,/sites/default/files/dentil_trim.jpg,,10
+7,Ridgemaster ,/sites/default/files/ridgemaster_11_00070000_400p_0.jpg,,11
+7,Ridgemaster Plus ,/sites/default/filesridgemaster_11_plus_00071100_400p.jpg,,11
+7,Hipmaster ,/sites/default/files/hipmaster_9_00070911_400p_0.jpg,,11
+7,Hipmaster Plus ,,,11
+8,Shutters ,/sites/default/files/proseries_0.jpg,9,
+8,Hardware ,/sites/default/files/pintel_plate_0.jpg,10,
+9,Architectural ,/sites/default/files/louver_std_3.jpg,11,
+9,Classic ,/sites/default/files/wood-arch-raised-panel_0.jpg,12,
+9,ProSeries ,/sites/default/files/proseries.jpg,,12
+9,Winworks ,,,13
+9,Encore ,,,14
+10,Traditional ,,,18
+10,Storm ,,,19
+10,Bahama ,,,20
+11,Raised Panel ,/sites/default/files/arch-coll-raised-panel.jpg,,15
+11,Louvered Colonial ,/sites/default/files/louver_std.jpg,,32
+11,Combination ,/sites/default/files/comb_shutter.jpg,,33
+11,Bahama ,/sites/default/files/bahama.jpg,,34
+12,Raised Panel ,/sites/default/files/wood-arch-raised-panel.jpg,,32
+12,Faux Louver ,/sites/default/files/wood-faux-louver.jpg,,16
+12,Board-n-Batten ,/sites/default/files/wood-classic-bb_arch.jpg,,17
+13,Moulding ,sites/default/files/moulding.jpg,,21
+13,Trimboard ,sites/default/files/trim_boards.jpg,,22
+13,Sheets ,sites/default/files/sheets.jpg,,23
+13,Konceal ,sites/default/files/konceal.jpg,,24
+13,Bead Sheets ,sites/default/files/beaded.jpg,,25
+13,KleerWrap ,sites/default/files/wrap.jpg,,26
+13,Decking ,sites/default/files/decking.jpg,14,
+13,Accessories ,sites/default/files/access_0.jpg,,29
+14,Sierra ,/sites/default/files/ISM15117_Espresso_400p.jpg,,27
+14,Coastal ,/sites/default/files/ISM15117_Cobblestone_400p.jpg,,28
+15,Slate ,/sites/default/files/slate_tile.jpg,,30
+15,Shake,/sites/default/files/shake_tile.jpg,,31
+16,Siding ,/sites/default/files/regular_siding_0.jpg,17,
+16,Stone ,/sites/default/files/stacked_stone.jpg,18,
+16,Accessories ,/sites/default/files/siding_access.jpg,,37
+17,Shingle ,/sites/default/files/regular_siding_0.jpg,,35
+17,Perfection Shingle ,/sites/default/files/NN587_PerfectionShingle_008-copy-r1_0000_Juniper.jpg,,35
+17,Split Shake ,/sites/default/files/NN587_SplitShake_008.jpg,,35
+17,Staggered Shake ,/sites/default/files/1201008_shadow_400p_0.jpg,,35
+17,Fishscale ,/sites/default/files/fishscale_123_400p.jpg,,35
+17,Rounds ,/sites/default/files/rounds_oceanside_400p.jpg,,35
+18,Limestone ,/sites/default/files/limestone_851_24x24.jpg,,36
+18,Brick ,/sites/default/files/brick_Cheyenne-882.jpg,,36
+18,Stacked ,/sites/default/files/stacked_885_24x24.jpg,,36
+19,Wells ,sites/default/files/window_well2.jpg,20,
+19,Covers ,/sites/default/files/wind_well_cover.jpg,21,
+20,5600,/sites/default/files/well_5600_400p.jpg,,38
+20,6700,/sites/default/files/well_6700_IMG_7261_granite_400p.jpg,,39
+20,2060,/sites/default/files/2060_2013_DSC_1275-granite_grey.jpg,,39
+20,2062,/sites/default/files/well_2062_granite_400p.jpg,,40
+20,2067,N/A,,40
+21,Dome ,/sites/default/files/cover_5600_dome_DS4_2216_400p.jpg,,41
+21,Flat ,/sites/default/files/cover_5600_IMG_4183_400p.jpg,,41
+22,Brakes ,/sites/default/files/brakes.jpg,,42
+22,Accessories ,/sites/default/files/tool_accessory.jpg,,43
+22,Saw Tables ,/sites/default/files/saw_table.jpg,,44
+22,Slitters ,/sites/default/files/slitter.jpg,,45

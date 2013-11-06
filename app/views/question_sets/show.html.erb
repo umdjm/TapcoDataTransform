@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+Question Set ID: <%= @question_set.id %><br/>
+
+<h1>Questions</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Question Text</th>
+    <th>Answer Type</th>
+    <th>Salesforce Field Name</th>
+    <th>Image</th>
+    <th>Answer Options</th>
+    <th>Actions</th>
+  </tr>
+<% @question_set.questions.order(:id).each do |question| %>
+  <tr>
+    <td><%= question.id %> </td>
+    <td><%= question.questionText %></td>
+    <td><%= question.answerType %></td>
+    <td><%= question.fieldname %></td>
+    <td><%= question.image_path %></td>
+    <td><%= question.answerOptions %></td>
+    <td>
+      <%= link_to 'Edit Question', edit_question_path(question) %> <br/>
+      <%= link_to 'Delete Question', question_path(question), :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+<tr>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td><%= link_to 'Add New Question', new_question_path(question_set_id: @question_set.id) %> </td>
+</table>

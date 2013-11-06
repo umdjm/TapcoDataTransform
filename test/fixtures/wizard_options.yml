@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  wizard_id: 1
+  title: MyString
+  image_path: MyString
+  next_wizard_id: 1
+  questionSet_id: 1
+
+two:
+  wizard_id: 1
+  title: MyString
+  image_path: MyString
+  next_wizard_id: 1
+  questionSet_id: 1

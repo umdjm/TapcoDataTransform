@@ -1,0 +1,244 @@
+question_set_id,questionText,fieldname,answerType,answerOptions
+1,What is the panel width? ,Width,Drop Down ,"12"", 14.75"""
+1,What color are the shutters? ,Color ,Color ,
+1,What is the length of the shutters? ,Length,TextArea,
+1,How many pairs of shutters? ,Quantity ,TextArea,
+1,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Fasteners, Other"
+1,Have the shutters been painted?,Painted ,Check Box ,"Yes, No"
+1,Date Dial Information ,Date Dial ,Date Dial ,
+1,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+2,What is the panel width? ,Width,Drop Down ,"12"", 14.5"""
+2,What color are the shutters? ,Color ,Color ,
+2,What is the length of the shutters? ,Length,TextArea,
+2,How many pairs of shutters? ,Quantity ,TextArea,
+2,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Fasteners, Other"
+2,Have the shutters been painted?,Painted ,Check Box ,"Yes, No"
+2,Date Dial Information ,Date Dial ,Date Dial ,
+2,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+3,What is the panel width? ,Width,Drop Down ,"12"", 14"""
+3,What color are the shutters? ,Color ,Color ,
+3,What is the length of the shutters? ,Length,TextArea,
+3,How many pairs of shutters? ,Quantity ,TextArea,
+3,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Fasteners, Other"
+3,Have the shutters been painted?,Painted ,Check Box ,"Yes, No"
+3,Date Dial Information ,Date Dial ,Date Dial ,
+3,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+4,What is the panel width? ,Width,Drop Down ,"9.25"", 12"", 14.5"", 16.5"", 18"""
+4,What color are the shutters? ,Color ,Color ,
+4,What is the length of the shutters? ,Length,TextArea,
+4,How many pairs of shutters? ,Quantity ,TextArea,
+4,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Fasteners, Other"
+4,Have the shutters been painted?,Painted ,Check Box ,"Yes, No"
+4,Date Dial Information ,Date Dial ,Date Dial ,
+4,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+5,Please describe your product ,Product Description ,TextArea,
+5,Please indicate quantity ,Quantity ,TextArea,
+5,What color is your product?,Color ,Color ,
+5,Have the mounting blocks been painted?,Painted ,Check Box ,"Yes, No"
+5,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+6,Please describe your product ,Product Description ,TextArea,
+6,Please indicate quantity ,Quantity ,TextArea,
+6,What color is your product?,Color ,Color ,
+6,Have the vents been painted?,Painted ,Check Box ,"Yes, No"
+6,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+7,Please select type ,Product Description ,Check Box (Multiple Select) ,"6"" Flat Panel, 6"" Dentil, 9"" Flat Panel, 9"" Dentil, Pilaster Kit"
+7,What is the Lineal Feet? ,Affected Area ,TextArea,
+7,What color is your product? ,Color ,Color ,
+7,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Manufacturing Defect, Faceplate Lock, Other"
+7,Have the trim been painted?,Painted ,Check Box ,"Yes, No"
+7,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+8,Please select type ,Product Description ,Drop Down ,"Half Round , Elliptical, Kit"
+8,Please indicate size,Product Dimensions,TextArea,
+8,What color is your product?,Color ,Color ,
+8,Have the sunbursts been painted?,Painted ,Check Box,"Yes, No"
+8,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowing, Manufacturing Defect, Faceplate Lock, Other"
+8,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+9,Please select type ,Product Description ,Drop Down ,"Square, Scallop, Corners"
+9,What is the Lineal Feet? ,Affected Area ,TextArea,
+9,What color is your product?,Color ,Color ,
+9,Have the Dentil Trim been painted?,Painted ,Check Box,"Yes, No"
+9,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Warping or Bowin, Manufacturing Defect, Other"
+9,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+10,What is the size of your Ridgevent ,Product Dimensions,Drop Down ,"9"", 11"""
+10,What is the Lineal Feet? ,Affected Area ,TextArea,
+10,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Filter, Lift, Other"
+10,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+11,Please select a style ,Product Description ,Drop Down ,"Raised Panel, Flat Panel, Louver, Board-n-Batten "
+11,Please indicate quantity ,Quantity ,TextArea,
+11,Please indicate height and width ,Product Dimensions ,TextArea,
+11,What color is your product?,Color ,Color ,
+11,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+11,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+12,Please select a style ,Product Description ,Drop Down ,"Flat Panel, Raised Panel, Board-n-Batten, Faux Louver "
+12,Please indicate quantity ,Quantity ,TextArea,
+12,Please indicate the length  ,Length,TextArea,
+12,Please indicate Width ,Width,Drop Down ,"12"", 15"", 18"" "
+12,What color is your product?,Color ,Color ,
+12,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+12,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+13,Please select a style ,Product Description ,Drop Down ,"Contemporary, Raised Panel, Board-n-Batten, Transitional, Faux Louver"
+13,Please indicate quantity ,Quantity ,TextArea,
+13,Please indicate the length  ,Length,TextArea,
+13,Please indicate Width ,Width,Drop Down ,"12"", 14"", 15"", 16"", 18"""
+13,What color is your product?,Color ,Color ,
+13,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+13,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+14,Please select a style ,Product Description ,Drop Down ,"Standard, Butt Hinge, Cutout, Rabbited Edge with Beading, Single Panel with Vertical Cut Profile, V-Groove, Arch Top, Custom Rail, Flat Panel, Extra Panel, Single Panel"
+14,Please indicate quantity ,Quantity ,TextArea,
+14,Please indicate height and width ,Product Dimensions ,TextArea,
+14,What color is your product?,Color ,Color ,
+14,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+14,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+15,Please select a style ,Product Description ,Drop Down ,"Standard, Additional Rails, Arch Top "
+15,Please indicate quantity ,Quantity ,TextArea,
+15,Please indicate height and width ,Product Dimensions ,TextArea,
+15,What color is your product?,Color ,Color ,
+15,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+15,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+16,Please select a style ,Product Description ,Drop Down ,"Standard, Z-Bar, Extra Batten, No Battens, Arch/Radius Top, Cutout "
+16,Please indicate quantity ,Quantity ,TextArea,
+16,Please indicate height and width ,Product Dimensions ,TextArea,
+16,What color is your product?,Color ,Color ,
+16,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+16,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+17,Please select a style ,Product Description ,Drop Down ,"Pintel, Hinges, Holdbacks, Bolts, Fixed Mounting Hardware "
+17,Please indicate quantity,Quantity ,TextArea,
+17,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Breakage, Other"
+17,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+18,Please select a style ,Product Description ,Drop Down ,"Inside Locking U-Shaped Storm Bar System , Horizontal Storm Bar System, Bahama Storm Bar, Polycarbonate Panel"
+18,Please indicate quantity,Quantity ,TextArea,
+18,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+18,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+19,Please select a style ,Product Description ,Drop Down ,"Hinges, Tilt Arms, Fastpins, Eye-End Sets "
+19,Please indicate quantity,Quantity ,TextArea,
+19,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+19,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+20,What is the thickness? ,Product Dimensions,TextArea,
+20,Please describe your product ,Product Description ,TextArea,
+20,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+20,Have the Moulding been painted?,Painted ,Check Box,"Yes, No"
+20,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+20,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+21,Please select a style ,Product Description ,Drop Down ,"Standard, Single Panel with Vertical Cut Profile, Extra Panel, Flat Panel, Arch/Radius Top, V-Groove, Custom Rail "
+21,Please indicate quantity ,Quantity ,TextArea,
+21,Please indicate height and width ,Product Dimensions ,TextArea,
+21,What color is your product?,Color ,Color ,
+21,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+21,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+22,What is the thickness? ,Product Dimensions ,Drop Down ,"5/8, 3/4, 15/16, 1-1/4"
+22,What is the Width,Width,Drop Down ,"3, 4, 5, 6, 8, 10, 12, 16"
+22,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+22,Have the Trimboard been painted?,Painted ,Check Box,"Yes, No"
+22,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+22,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+23,What is the thickness? ,Product Dimensions ,Drop Down ,"1/4, 3/8, 1/2, 5/8, 3/4, 15/16, 1-1/4"
+23,What is the length?,Length,Drop Down ,"8, 10, 12, 18, 20"
+23,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+23,Have the sheets been painted?,Painted ,Check Box,"Yes, No"
+23,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+23,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+24,Please Select Product ,Product Description ,Check Box ,"Konceal Trimboard 15/16x3 1/2 - W/ Nailing Flange Cutout 15/16x3 1/2, Konceal Trimboard 15/16x5 1/2 - W/Nailing Flange Cutout 15/16x5 1/2, Corner Board 15/16x3 1/2, Corner Board 15/16x5 1/2, Start 3/4x5 1/2, Start 3/4x 7 1/2"
+24,What is the width? ,Width,Drop Down ,"4"", 6"", 8"""
+24,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+24,Have the Konceal been painted?,Painted ,Check Box,"Yes, No"
+24,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+24,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+25,Please select Size ,Product Dimensions ,Drop Down ,"3-1/4"", 5"""
+25,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+25,Have the Bead Sheet been painted?,Painted ,Check Box,"Yes, No"
+25,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+25,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+26,Please select size ,Product Dimensions ,Drop Down ,"4""x4"", 6""x6"", 8""x8"""
+26,Please select length ,Length,Drop Down ,"8"", 10"""
+26,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+26,Have the Kleer Wrap been painted?,Painted ,Check Box,"Yes, No"
+26,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Yellowing, Warping, Splinter, Delaminate, Rot, Other"
+26,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+27,Please select color ,Color ,Drop Down ,"Golden teak, Brazilian Redwood, Hearthstone, Espresso, Sequoia, Cobblestone, Sand Dune "
+27,What is the square footage? ,Affected Area ,TextArea,
+27,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Splitting, Rot, Insect Damage, Other"
+27,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+28,Please select color ,Color ,Drop Down ,"Golden teak, Brazilian Redwood, Hearthstone, Espresso, Sequoia, Cobblestone, Sand Dune "
+28,What is the square footage? ,Affected Area ,TextArea,
+28,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Splitting, Rot, Insect Damage, Other"
+28,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+29,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+29,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+30,What is the fire rating? ,Fire Rating ,Drop Down ,"Class A, Class C"
+30,What is the style? ,Product Description ,Drop Down ,"Traditional, MIX"
+30,What is the Color ,Color ,Color ,
+30,Date Dial Information,Date Dial ,Date Dial ,
+30,What area was affected?,Affected Direction ,Check Boxes (Check Multiple),"North, South, East, West"
+30,How many squares were there?,Quantity ,TextArea,
+30,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Lifting, Other"
+30,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+31,What is the style? ,Product Description ,Drop Down ,"Weathered Gray, Cedar Brown, New Cedar "
+31,What is the Color?,Color ,Color ,
+31,Date Dial Information,Date Dial ,Date Dial ,
+31,What area was affected?,Affected Direction ,Check Boxes (Check Multiple),"North, South, East, West"
+31,How many squares were there?,Quantity ,TextArea,
+31,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Lifting, Other"
+31,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+32,Please select a style ,Product Description ,Drop Down ,"Standard, Rabbited Edge with Beading, Bahama Louver Spacing, Solid Arch Top, Custom Top or Bottom Rail, Horns, Butt Hinge, Custom Rail, Vertical Mullion, Faux Tilt Rod "
+32,Please indicate quantity ,Quantity ,TextArea,
+32,Please indicate height and width ,Product Dimensions ,TextArea,
+323,What color is your product?,Color ,Color ,
+32,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+32,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+33,Please select a style ,Product Description ,Drop Down ,"Standard Combination, Additional Rails, Extra Panel, Vertical Mullion, Faux Tilt Rod, Custom Top or Bottom Rail, Solid Panel Arch Top, Rabbited Edge, Cutout, Bahama Louver Spacing "
+33,Please indicate quantity ,Quantity ,TextArea,
+33,Please indicate height and width ,Product Dimensions ,TextArea,
+33,What color is your product?,Color ,Color ,
+33,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+33,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+34,Please select a style ,Product Description ,Drop Down ,"Less than 30"" , 30"" to less than 60"", 60"" to less than 90"", 90"" to less than 120"" "
+34,Please indicate quantity ,Quantity ,TextArea,
+34,Please indicate height and width ,Product Dimensions ,TextArea,
+34,What color is your product?,Color ,Color ,
+34,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Paint, Splitting, Bowing, Delamination, Other"
+34,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+35,What is the exposure? ,Affected Area ,Drop Down ,"6"", 7"", 10"""
+35,What is the Color?,Color ,Color ,
+35,What area was affected?,Affected Direction ,Check Boxes (Check Multiple),"North, South, East, West"
+35,How many squares are there?,Quantity ,TextArea,
+35,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Discoloration, Warping, Peeling, Flaking, Blistering, Other"
+35,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+36,What is the Color?,Color ,Color ,
+36,What area was affected?,Affected Direction ,Check Boxes (Check Multiple),"North, South, East, West"
+36,How many squares are there?,Quantity ,TextArea,
+36,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Discoloration, Warping, Peeling, Flaking, Blistering, Other"
+36,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+37,Please select a profile ,Product Description ,Drop Down ,"J Channel, Undersill Trim, Shape Starter, Vinyl Starter, Corners, Stone Starter, Stone Transition Sill, Transitional Pieces"
+37,Please Describe product ,Product Description ,TextArea,
+37,What is the Lineal Feet affected? ,Affected Area ,TextArea,
+37,What is the color?,Color ,Color ,
+37,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Fade, Discoloration, Warping, Peeling, Flaking, Blistering, Other"
+37,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+38,Do you have a Modular?,Modular ,Check Box,"Yes, No"
+38,"If yes, how many? ",Modular Quantity ,TextArea,
+38,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Cracking, Bulging, Separation, Other"
+38,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+39,Select Color ,Color ,Drop Down ,"Sandstone, Grey"
+39,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Cracking, Bulging, Separation, Other"
+39,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+40,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Cracking, Bulging, Separation, Other"
+40,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+41,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Hardware, Fit, Scratching, Other"
+41,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+42,Please Select Product ,Product Description ,Drop Down ,"Pro 14, Pro 19, Pro 50, MAX-I-MUM, MX, Windy SP, Other "
+42,Please select a size,Product Dimensions ,Drop Down ,"4"", 6"", 8'6"", 10'6"", 12'6"", 14'6"", Other "
+42,Serial #,Serial Number ,TextArea,
+42,What is the reason for the Warranty? ,Warranty Reason ,Drop Down ,"Hinges, Alignment, Pivot Links, Bowed, Other"
+42,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+43,Please Select Product ,Product Description ,Drop Down ,"Brake Buddy, Pro Cut-off, Max Cut-off, Snap Stand, Folding Legs, Gauges, Pro Coiler, SideWinder, Wheel Kit "
+43,"Serial # (N/A for Folding Legs, Gauges and Wheel Kits)",Serial Number ,TextArea,
+43,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+43,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+44,Please Select Product ,Product Description ,Drop Down ,"Pro Trax, Max Trax"
+44,"Serial # (N/A for Folding Legs, Gauges and Wheel Kits)",Serial Number ,TextArea,
+44,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+44,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,
+45,Please select size ,Product Dimensions ,Drop Down ,"24"", 48"""
+45,"Serial # (N/A for Folding Legs, Gauges and Wheel Kits)",Serial Number ,TextArea,
+45,What is the reason for the Warranty? ,Warranty Reason ,TextArea,
+45,Please provide additional information regarding the claim (if necessary) ,Notes ,TextArea,

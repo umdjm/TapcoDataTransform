@@ -1,0 +1,21 @@
+<h1>Listing wizard_options</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wizard_options.each do |wizard_option| %>
+  <tr>
+    <td><%= link_to 'Show', wizard_option %></td>
+    <td><%= link_to 'Edit', edit_wizard_option_path(wizard_option) %></td>
+    <td><%= link_to 'Destroy', wizard_option, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Wizard option', new_wizard_option_path %>

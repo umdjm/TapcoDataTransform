@@ -1,0 +1,53 @@
+<h1>Selection Details</h1>
+<p id="notice"><%= notice %></p>
+    ID: <%= @wizard.id %><br/>
+    Title: <%= @wizard.title %><br/>
+    Level: <%= @wizard.level %> <br/>
+    Salesforce Field Name: <%= @wizard.fieldname %> <br/>
+<%= link_to 'Edit', edit_wizard_path(@wizard) %> |
+
+<h1>Options for this Selection</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Salesforce Field Name</th>
+    <th>Next Selection</th>
+    <th>Question Set</th>
+    <th>Image</th>
+    <th>Actions</th>
+  </tr>
+<% @wizard.wizardOptions.order(:id).each do |option| %>
+  <tr>
+    <td><%= option.id %> </td>
+    <td><%= option.title%></td>
+    <td><%= option.fieldname %></td>
+
+    <td>
+    <% if !option.next_wizard_id.nil? %>
+       <%= link_to option.next_wizard.id.to_s + " - " + option.next_wizard.title, option.next_wizard %>
+    <% end %>
+    </td>
+
+    <td>
+       <% if !option.questionSet_id.nil? %>
+          <%= link_to option.questionSet.id.to_s, option.questionSet %>
+       <% end %>
+    </td>
+    <td><img src="http://tapcostage.marketingassociates.com<%= option.image_path %>"/><br/><%= option.image_path %> </td>
+    <td>
+      <%= link_to 'Edit Option', edit_wizardOption_path(option) %> 
+      <%= link_to 'Delete Option', wizard_option_path(option), :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+<tr>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td/>
+  <td><%= link_to 'Add New Option', new_wizard_option_path(wizard_id: @wizard.id) %> </td>
+</table>
+
