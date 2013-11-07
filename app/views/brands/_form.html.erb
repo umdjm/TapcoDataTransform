@@ -15,8 +15,9 @@
      <%= f.text_field :name%>
   </div>
   <div class="field">
-     <%= f.label :wizard_id %> <br/>
-     <%= f.text_field :wizard_id %>
+     Initial Selection ID <br/>
+     <%= f.collection_select( :wizard_id, Wizard.order(:id), :id, :id, include_blank: true ) %>
+
   </div>
   <div class="actions">
     <%= f.submit %>

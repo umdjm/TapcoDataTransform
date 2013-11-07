@@ -11,31 +11,29 @@
     </div>
   <% end %>
   <div class="field">
-     <%= f.label :wizard_id %> <br />
-     <%= f.text_field :wizard_id %>
+     <%= "Selection ID" %> <br />
+     <%= @wizard_option.id %>
   </div>
   <div class="field">
      <%= f.label :title %> <br />
      <%= f.text_field :title %>
   </div>
   <div class="field">
-     <%= f.label :questionSet_id %> <br/>
-     <%= f.text_field :questionSet_id %>
+     <%= "Question Set ID" %> <br/>
+     <%= f.collection_select( :questionSet_id, QuestionSet.order(:id), :id, :id, include_blank: true ) %>
   </div>
   <div class="field">
-     <%= f.label :next_wizard_id %> <br />
-     <%= f.text_field :next_wizard_id %>
+     <%=  "Next Selection ID" %> <br />
+     <%= f.collection_select( :next_wizard_id, Wizard.order(:id), :id, :id, include_blank: true ) %>
   </div>
   <div class="field">
      <%= f.label :image_path %> <br/>
      <%= f.text_field :image_path %>
   </div>
   <div class="field">
-     <%= f.label :fieldname %> <br/>
-     <%= f.text_field :fieldname %>
+     Salesforce Field Name <br/>
+     <%= f.select :fieldname, options_for_select(["", "Comments__C", "Color__C", "Product_Details__C", "Product__C", "Type__C", "Painted__C", "Length__C", "Dimensions__C", "Quantity__C", "Reason_Complaint__C", "Date_Dial__C", "Width__C", "Fire_Rating__C", "Modular__C", "Affected_Directions__C", "Serial_Number__C"], @wizard_option.fieldname) %>
   </div>
-
-
 
   <div class="actions">
     <%= f.submit %>
