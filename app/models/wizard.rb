@@ -4,7 +4,7 @@ class Wizard < ActiveRecord::Base
   belongs_to :brand
 
   def self.output_json
-    Wizard.all.to_json(
+    Wizard.order(:id).to_json(
         :except => [:updated_at, :created_at],
         :include => {
             :wizardOptions => {

@@ -3,7 +3,7 @@ class QuestionSet < ActiveRecord::Base
   has_many :questions
 
   def self.output_json
-    QuestionSet.all.to_json(
+    QuestionSet.order(:id).to_json(
         :except => [:updated_at, :created_at],
         :include => {
             :questions => {

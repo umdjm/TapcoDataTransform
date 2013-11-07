@@ -23,3 +23,11 @@
 <br />
 
 <%= link_to 'New Brand', new_brand_path %>
+<br/>
+<br/>
+<button id="show_json_button" onclick="toggleJSON()">Show JSON</button>
+<div id="json_output" style="display:none;">
+<%= Brand.output_all %>
+</div>
+
+
