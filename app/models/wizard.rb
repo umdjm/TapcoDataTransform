@@ -1,6 +1,6 @@
 class Wizard < ActiveRecord::Base
   attr_accessible :level, :title, :fieldname
-  has_many :wizardOptions
+  has_many :wizardOptions, :order => :id
   belongs_to :brand
 
   def self.output_json
