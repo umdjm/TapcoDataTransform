@@ -11,28 +11,28 @@
     </div>
   <% end %>
   <div class="field">
-     <%= f.label :question_set_id %> <br />
-     <%= f.text_field :question_set_id %>
+     Question Set ID<br/>
+     <%= f.collection_select( :question_set_id, QuestionSet.order(:id), :id, :id, include_blank: true ) %>
   </div>
 
   <div class="field">
-     <%= f.label :questionText %> <br />
+     Question Text <br />
      <%= f.text_field :questionText %>
   </div>
   <div class="field">
-     <%= f.label :answerOptions %> <br />
+     Answer Options <br />
      <%= f.text_field :answerOptions %>
   </div>
   <div class="field">
-     <%= f.label :answerType %> <br />
-     <%= f.text_field :answerType %>
+     Answer Type <br/>
+     <%= f.select :answerType, options_for_select(["", "TextArea", "Text", "Drop Down", "Check Box ", "Multi-Select", "Date Dial"], @question.answerType) %>
   </div>
   <div class="field">
-     <%= f.label :fieldname %> <br />
-     <%= f.text_field :fieldname %>
+     Salesforce Field Name <br/>
+     <%= f.select :fieldname, options_for_select(["", "Product__C", "Type__C", "Comments__C", "Color__C", "Product_Details__C", "Painted__C", "Length__C", "Dimensions__C", "Quantity__C", "Reason_Complaint__C", "Date_Dial__C", "Width__C", "Fire_Rating__C", "Modular__C", "Affected_Directions__C", "Serial_Number__C"], @question.fieldname) %>
   </div>
   <div class="field">
-     <%= f.label :image_path %> <br />
+     Image Path <br/>
      <%= f.text_field :image_path %>
   </div>
 
