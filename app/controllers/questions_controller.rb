@@ -27,7 +27,6 @@ class QuestionsController < ApplicationController
     @question = Question.new
     @question.question_set_id = params[:question_set_id]
 
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @question }

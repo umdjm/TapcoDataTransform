@@ -1,6 +1,6 @@
 class QuestionSet < ActiveRecord::Base
   attr_accessible :questionSetID
-  has_many :questions
+  has_many :questions, :order => :orderingcolumn
 
   def self.output_json
     QuestionSet.order(:id).to_json(

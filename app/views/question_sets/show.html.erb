@@ -5,6 +5,7 @@ Question Set ID: <%= @question_set.id %><br/>
 <table>
   <tr>
     <th>ID</th>
+    <th>Order</th>
     <th>Question Text</th>
     <th>Answer Type</th>
     <th>Salesforce Field Name</th>
@@ -12,9 +13,10 @@ Question Set ID: <%= @question_set.id %><br/>
     <th>Answer Options</th>
     <th>Actions</th>
   </tr>
-<% @question_set.questions.order(:id).each do |question| %>
+<% @question_set.questions.each do |question| %>
   <tr>
     <td><%= question.id %> </td>
+    <td><%= question.orderingcolumn %> </td>
     <td><%= question.questionText %></td>
     <td><%= question.answerType %></td>
     <td><%= question.fieldname %></td>
@@ -27,6 +29,7 @@ Question Set ID: <%= @question_set.id %><br/>
   </tr>
 <% end %>
 <tr>
+  <td/>
   <td/>
   <td/>
   <td/>

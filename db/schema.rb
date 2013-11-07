@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131105010640) do
+ActiveRecord::Schema.define(:version => 20131107183100) do
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20131105010640) do
     t.datetime "updated_at",      :null => false
     t.string   "fieldname"
     t.string   "image_path"
+    t.integer  "orderingcolumn"
   end
 
   create_table "wizard_options", :force => true do |t|
