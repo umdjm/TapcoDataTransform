@@ -12,6 +12,12 @@ class Brand < ActiveRecord::Base
   def self.output_all
     '{ "Brands" : ' + Brand.output_json + ', "Wizards" : ' + Wizard.output_json + ', "QuestionSets" : ' + QuestionSet.output_json + '}'
   end
+
+  def self.output_images
+    '{ "Brands" : ' + Brand.output_json + '}'
+  end
+
+
   def self.output_json
     Brand.order(:id).to_json(
         :except => [:updated_at, :created_at], 
