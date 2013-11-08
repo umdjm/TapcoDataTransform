@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131107183100) do
+ActiveRecord::Schema.define(:version => 20131108155116) do
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -30,9 +30,9 @@ ActiveRecord::Schema.define(:version => 20131107183100) do
     t.integer  "question_set_id"
     t.string   "questionText"
     t.string   "answerType"
-    t.string   "answerOptions"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.string   "answerOptions",   :limit => 10000
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
     t.string   "fieldname"
     t.string   "image_path"
     t.integer  "orderingcolumn"
