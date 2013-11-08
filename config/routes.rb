@@ -1,4 +1,6 @@
 TapcoDataTransform::Application.routes.draw do
+  resources :images
+
   resources :question_sets
 
   resources :wizard_options
