@@ -17,15 +17,6 @@ class Brand < ActiveRecord::Base
     '{ "Brands" : ' + Brand.output_json + '}'
   end
 
-  def dj_clone
-    start_id = WizardOption.order(:id).last.id + 1
-    wiz = self.wizard.amoeba_dup
-    wiz.save
-    self.wizard_id = wiz.id
-    self.save
-    WizardOption.clone_new_question_sets(start_id)
-  end
-
   def self.output_json
     Brand.order(:id).to_json(
         :except => [:updated_at, :created_at], 
