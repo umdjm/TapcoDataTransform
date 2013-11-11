@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131108194727) do
+ActiveRecord::Schema.define(:version => 20131111044043) do
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -62,9 +62,10 @@ ActiveRecord::Schema.define(:version => 20131108194727) do
   create_table "wizards", :force => true do |t|
     t.string   "title"
     t.integer  "level"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
     t.string   "fieldname"
+    t.integer  "wizard_option_id"
   end
 
 end

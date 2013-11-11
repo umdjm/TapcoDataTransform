@@ -1,6 +1,11 @@
 class QuestionSet < ActiveRecord::Base
   attr_accessible :questionSetID
   has_many :questions, :order => :orderingcolumn
+  belongs_to :wizardOption
+
+  amoeba do
+    enable
+  end
 
   def self.output_json
     QuestionSet.order(:id).to_json(
