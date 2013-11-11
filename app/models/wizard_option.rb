@@ -18,5 +18,5 @@ class WizardOption < ActiveRecord::Base
   end
 
   belongs_to :questionSet, :class_name => "QuestionSet"
-  has_one :next_wizard, :class_name => "Wizard"      
+  belongs_to :next_wizard, :class_name => "Wizard"      
 end
