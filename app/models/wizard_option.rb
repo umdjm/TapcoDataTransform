@@ -4,6 +4,22 @@ class WizardOption < ActiveRecord::Base
 
   amoeba do
     enable
+    clone [:next_wizard]
+  end
+
+  def clone_question_set
+     if !this.questionSet.nil?
+       qs = self.questionSet.amoeba_dup
+       qs.save
+       self.questionSet_id = qs.id
+       self.save
+     end
+  end
+
+  def self.clone_new_question_sets(startID)
+    WizardOption.where('"wizard_options"."questionSet_id" is not null and id >= ' + startID.to_s).each do |option|
+      option.clone_question_set
+    end
   end
 
   def self.set_next_wizard
@@ -18,5 +34,5 @@ class WizardOption < ActiveRecord::Base
   end
 
   belongs_to :questionSet, :class_name => "QuestionSet"
-  belongs_to :next_wizard, :class_name => "Wizard"      
+  has_one :next_wizard, :class_name => "Wizard"
 end

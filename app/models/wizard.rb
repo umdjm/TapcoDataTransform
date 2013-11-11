@@ -5,7 +5,7 @@ class Wizard < ActiveRecord::Base
   amoeba do
     enable
   end
- 
+
   def self.output_json
     Wizard.order(:id).to_json(
         :except => [:updated_at, :created_at],
