@@ -11,6 +11,7 @@ Question Set ID: <%= @question_set.id %><br/>
     <th>Salesforce Field Name</th>
     <th>Image</th>
     <th>Answer Options</th>
+    <th>Required</th>
     <th>Actions</th>
   </tr>
 <% @question_set.questions.each do |question| %>
@@ -22,6 +23,7 @@ Question Set ID: <%= @question_set.id %><br/>
     <td><%= question.fieldname %></td>
     <td><%= question.image_path %></td>
     <td><%= question.answerOptions %></td>
+    <td><%= question.required.to_s %></td>
     <td>
       <%= link_to 'Edit Question', edit_question_path(question) %> <br/>
       <%= link_to 'Delete Question', question_path(question), :method => :delete %>
