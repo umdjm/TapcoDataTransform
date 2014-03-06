@@ -8,8 +8,10 @@ Images
 <table>
   <tr>
     <th>Example Image URL</th>
-    <th>Display Text</th>
+    <th>Image Type</th>
+    <th>Extended Text</th>
     <th>Brand</th>
+    <th>Order</th>
     <th></th>
     <th></th>
   </tr>
@@ -18,7 +20,9 @@ Images
   <tr>
     <td><%= image.ExampleURL %></td>
     <td><%= image.DisplayText %></td>
+    <td><%= image.extended_text %></td>
     <td><%= image.brand.name unless image.brand.nil? %></td>
+    <td><%= image.orderingcolumn %></td>
     <td><%= link_to 'Edit', edit_image_path(image) %></td>
     <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>

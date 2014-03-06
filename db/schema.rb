@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131114005740) do
+ActiveRecord::Schema.define(:version => 20140306185926) do
+
+  create_table "accountteam", :id => false, :force => true do |t|
+    t.string "accountnumber"
+    t.string "agency"
+    t.string "role"
+    t.string "brand"
+    t.string "username"
+    t.string "newname"
+  end
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -24,8 +33,10 @@ ActiveRecord::Schema.define(:version => 20131114005740) do
     t.string   "ExampleURL"
     t.string   "DisplayText"
     t.integer  "brand_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.integer  "orderingcolumn"
+    t.string   "extended_text"
   end
 
   add_index "images", ["brand_id"], :name => "index_images_on_brand_id"

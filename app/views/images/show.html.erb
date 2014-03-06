@@ -6,15 +6,22 @@
 </p>
 
 <p>
-  <b>Displaytext:</b>
+  <b>Image Type:</b>
   <%= @image.DisplayText %>
 </p>
 
 <p>
+  <b>Extended Text:</b>
+  <%= @image.extended_text %>
+</p>
+<p>
   <b>Brand:</b>
   <%= @image.brand %>
 </p>
-
+<p>
+  <b>Order:</b>
+  <%= @image.orderingcolumn %>
+</p>
 
 <%= link_to 'Edit', edit_image_path(@image) %> |
 <%= link_to 'Back', images_path %>

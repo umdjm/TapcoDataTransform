@@ -16,12 +16,20 @@
     <%= f.text_field :ExampleURL %>
   </div>
   <div class="field">
-    <%= f.label :DisplayText %><br />
+    Image Type<br />
     <%= f.text_field :DisplayText %>
+  </div>
+  <div class="field">
+    <%= f.label :extended_text %><br />
+    <%= f.text_field :extended_text %>
   </div>
   <div class="field">
     Brand <br />
     <%= collection_select(:image, :brand_id, Brand.all, :id, :name, :include_blank => true, :selected => @image.brand_id) %>
+  </div>
+  <div class="field">
+    Order <br />
+    <%= f.text_field :orderingcolumn %>
   </div>
   <div class="actions">
     <%= f.submit %>

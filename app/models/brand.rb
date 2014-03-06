@@ -1,7 +1,7 @@
 class Brand < ActiveRecord::Base
   attr_accessible :name, :wizard_id
   belongs_to :wizard
-  has_many :images, :order => :id
+  has_many :images, :order => :orderingcolumn
 
   def self.write_json_to_file
      File.open('WarrantyItemConfig2.json', 'w') do |f|
