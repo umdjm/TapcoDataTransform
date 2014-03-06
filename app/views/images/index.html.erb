@@ -10,6 +10,7 @@ Images
     <th>Example Image URL</th>
     <th>Image Type</th>
     <th>Extended Text</th>
+    <th>File To Upload</th>
     <th>Brand</th>
     <th>Order</th>
     <th></th>
@@ -21,6 +22,7 @@ Images
     <td><%= image.ExampleURL %></td>
     <td><%= image.DisplayText %></td>
     <td><%= image.extended_text %></td>
+    <td><%= image.FileToUpload %></td>
     <td><%= image.brand.name unless image.brand.nil? %></td>
     <td><%= image.orderingcolumn %></td>
     <td><%= link_to 'Edit', edit_image_path(image) %></td>

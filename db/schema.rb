@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140306185926) do
+ActiveRecord::Schema.define(:version => 20140306212643) do
 
   create_table "accountteam", :id => false, :force => true do |t|
     t.string "accountnumber"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20140306185926) do
     t.datetime "updated_at",     :null => false
     t.integer  "orderingcolumn"
     t.string   "extended_text"
+    t.string   "FileToUpload"
   end
 
   add_index "images", ["brand_id"], :name => "index_images_on_brand_id"
